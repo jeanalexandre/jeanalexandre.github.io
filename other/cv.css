@@ -240,27 +240,33 @@
 		***************/
 		
 		section[role=main] h3:after {
-			background:url('../img/pictos-titre.png') no-repeat 11px 10px;
+			background:url('../other/about.png') no-repeat;
+			background-position: center;
 		}
 		
 		section[role=main] .competences h3:after {
-			background-position: 11px -34px;
+			background:url('../other/skills.png') no-repeat;
+			background-position: center;
 		}
 	
 		section[role=main] .experiences h3:after {
-			background-position: 11px -86px;
+			background:url('../other/experience.png') no-repeat;
+			background-position: center;
 		}
 		
 		section[role=main] .formations h3:after {
-			background-position: 10px -139px;
+			background:url('../other/formation.png') no-repeat;
+			background-position: center;
 		}
 		
 		section[role=main] .loisirs h3:after {
-			background-position: 10px -250px;
+			background:url('../other/loisir.png') no-repeat;
+			background-position: center;
 		}
 		
 		section[role=main] .contact h3:after {
-			background-position: 11px -194px;
+			background:url('../other/contact.png') no-repeat;
+			background-position: center;
 		}
 	
 	
@@ -339,8 +345,8 @@
 	***********/
 	.lieu, .dates, .phone, .mail, .site, .form, .twitter, .facebook, .dribbble, .skype {
 		background: url('../img/pictos-gris.png') no-repeat;
-		padding-left: 25px;
-		margin: 0 10px 1px 10px;
+		/*padding-left: 2px;
+		margin: 0 10px 1px 10px;*/
 	}
 	
 	.lieu {
@@ -383,4 +389,8 @@
 	
 	.skype {
 		background-position: 0 -180px;
+	}
+
+	.about{
+		text-align: justify;
 	}
